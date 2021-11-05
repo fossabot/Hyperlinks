@@ -2,7 +2,7 @@
   "name": "hyperlinks",
   "version": "0.1.0",
   "description": "A JavaScript Library to make anchor tags more beautiful !!!",
-  "main": "src/index.js",
+  "browser": "src/index.js",
   "scripts": {
     "link": "npx eslint src/"
   },
@@ -16,7 +16,17 @@
     "Library",
     "Browser"
   ],
-  "author": "Criticalcarpet <criticalcarpet.dev@gmail.com>",
+  "author": {
+    "name": "Criticalcarpet",
+    "email": "criticalcarpet.dev@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Manik Kapoor",
+      "email": "manikkpr2375@gmail.com",
+      "url": "https://manik2375.netlify.app/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Criticalcarpet/Hyperlinks/issues"
