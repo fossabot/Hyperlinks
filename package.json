@@ -1,0 +1,32 @@
+{
+  "name": "hyperlinks",
+  "version": "0.1.0",
+  "description": "A JavaScript Library to make anchor tags more beautiful !!!",
+  "main": "src/index.js",
+  "scripts": {
+    "link": "npx eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Criticalcarpet/Hyperlinks.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Anchor-Tags",
+    "Library",
+    "Browser"
+  ],
+  "author": "Criticalcarpet <criticalcarpet.dev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Criticalcarpet/Hyperlinks/issues"
+  },
+  "homepage": "https://github.com/Criticalcarpet/Hyperlinks#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1"
+  }
+}
