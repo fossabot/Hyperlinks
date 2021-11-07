@@ -1,3 +1,5 @@
+import { StoreMeta } from './_db.js'
+
 /**
  * To extract the meta-tags from the parsed DOM.
  * @param {Object} parsedDOM - The parsed DOM.
@@ -5,7 +7,7 @@
  * @returns {Object} The meta-tags.
  */
 
-export const extractMetaTags = (parsedDOM, metaNames) => {
+export const extractMetaTags = (parsedDOM, metaNames, anchorHref) => {
   const metas = {}
   metaNames.map(metaName => {
     Array.prototype.some.call(parsedDOM.getElementsByTagName('meta'), (el) => {
@@ -23,5 +25,6 @@ export const extractMetaTags = (parsedDOM, metaNames) => {
     return metas
   })
   console.log(metas)
+  StoreMeta(anchorHref, metas)
   return metas
 }

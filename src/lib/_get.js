@@ -8,6 +8,5 @@ export const GetHtml = (UrlArray) =>
      `https://api.allorigins.win/get?url=${encodeURIComponent(h)}`
   )
     .then((r) => r.json())
-    .then((j) => j.contents)
   )
   )
