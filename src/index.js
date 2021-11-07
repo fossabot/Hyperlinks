@@ -1,18 +1,17 @@
-import { Unique } from './lib/_unique.js'
-import { GetMeta } from './lib/_get.js'
+import { GetHtml } from './lib/_get.js'
 import { ParseDOM } from './lib/_parse.js'
-import { Filter } from './lib/_filter.js'
+import { extractMetaTags } from './lib/_extract.js';
 
-(() => {
-  const FEEDER = Unique()
+(async () => {
+  const NATIVE = [...document.getElementsByClassName('hyperlinks')].map(x => x.href)
+  const FEEDER = [...new Set(NATIVE)]
   console.log(FEEDER)
-  FEEDER.map(href => {
-    /* This line => */ console.log(href)
-    GetMeta(href).then(meta => {
-      const result = ParseDOM(meta.contents)
-      console.log(result)
-      Filter(result)
-    })
-    return true
+  const data = await GetHtml(FEEDER)
+  data.map(Raw => {
+    const DOM = ParseDOM(Raw)
+    console.log(DOM)
+    const NEEDEDMETA = ['og:image', 'og:url', 'og:title', 'og:description']
+    extractMetaTags(DOM, NEEDEDMETA)
+    return DOM
   })
 })()

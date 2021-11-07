@@ -1,10 +1,13 @@
 /**
- *
- * @param {String} hrefArray - array of hrefs.
- * @returns {JSON} - array of DOMs.
+ * To fetch the html of a page.
+ * @param {Array} UrlArray - The array of URLs to fetch.
+ * @returns {Promise} - The html of the page.
  */
-
-export const GetMeta = async (hrefArray) => {
-  const RESPONSE = await fetch(`https://api.allorigins.win/get?url=${encodeURIComponent('http://github.com')}`)
-  return RESPONSE.json()
-}
+export const GetHtml = (UrlArray) =>
+  Promise.all(UrlArray.map((h) => fetch(
+     `https://api.allorigins.win/get?url=${encodeURIComponent(h)}`
+  )
+    .then((r) => r.json())
+    .then((j) => j.contents)
+  )
+  )

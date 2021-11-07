@@ -1,11 +1,11 @@
 /**
- *
- * @param {String} ToParse - The meta.contents string to parse
- * @returns {DOMDocument} - The parsed DOMDocument
+ * Parse Raw HTML to a DOM tree.
+ * @param {string} RawHtml -  Raw HTML.
+ * @returns {object} - DOM tree.
  */
 
-export const ParseDOM = (ToParse) => {
+export const ParseDOM = (RawHtml) => {
   const parser = new DOMParser()
-  const parsed = parser.parseFromString(ToParse, 'text/html')
-  return parsed
+  const doc = parser.parseFromString(RawHtml, 'text/html')
+  return doc
 }
