@@ -1,0 +1,14 @@
+.divback {
+    background-image: url('https://cdn.discordapp.com/attachments/905432589286912021/906923879367327834/unknown.png');
+    width: 20em;
+    height: 10em;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: top center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 1%;
+}
