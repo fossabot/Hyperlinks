@@ -1,5 +1,8 @@
 <h1 align="center">Hyperlinks</h1>
+
 [![CodeFactor](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks/badge)](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks)
+
+
 <br>
 
 <div align="center">
