@@ -14,3 +14,4 @@
 <br><br><br>
 
 > ⚠ Note : Before commiting please run `npm run lint` or check with eslint for proper code formatting.
+  
