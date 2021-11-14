@@ -7,7 +7,7 @@
 A JavaScript library to make "Anchor tags" more beautiful !!! 💖
 
 
-## Features
+## ❯ Features
 
 - Grab the meta-data of the websites in the background
 - Fancy tooltip like display for preview
@@ -16,7 +16,7 @@ A JavaScript library to make "Anchor tags" more beautiful !!! 💖
 
 
 
-## Usage/Examples
+## ❯ Usage/Examples
 
 Steps to follow : 
 
@@ -46,12 +46,23 @@ Here is a code snippet of a working model 👇
 </html>
 ```
 
-## Support
+
+## ❯ Credits 
+
+Special Thanks to [`Gabriel nunes`](https://github.com/gnuns) for permitting us to use [`allOrigins`](https://github.com/gnuns/allOrigins) for the library.  
+Also thanks to the below people for helping out and giving tips for the welfare of the project :
+- [Blitz](https://discord.com/app/@me/781928349915545640)
+- [Abitofevrything](https://github.com/abitofevrything)
+- [Lebster](https://github.com/LebsterFace)
+- [Xastronomica](https://github.com/xastronomica)
+- [[Cursors]](https://github.com/cursorsdottsx)
+- [Lcf.vs](https://github.com/Lcfvs)
+
+## ❯ Support
 
 Feel free to DM in [Discord](https://discord.com/channels/@me/436043273069658112) for any issues you are facing.
 
-
-## License
+## ❯ License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
