@@ -1,7 +1,8 @@
 <h1 align="center">Hyperlinks</h1>  
-
+<div align="center">  
+  
 [![CodeFactor](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks/badge)](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks)  
-
+</div>  
 
 A JavaScript library to make "Anchor tags" more beautiful !!! 💖
 
@@ -23,10 +24,10 @@ Steps to follow :
 - Add the [`Hyperlinks-Css`](https://google.com/) stylesheet below the script.
 - Add the `hyperlinks` class the anchor tags for which you wish to have a preview.
 
-> ⚠ Note : Please add the `/` after any link.
-
-✔  => https://github.com/Criticalcarpet/  
-❌ => https://github.com/Criticalcarpet  
+⚠ Note : 
+* Please add the `/` after any link.
+  * ✔  => https://github.com/Criticalcarpet/  
+  * ❌ => https://github.com/Criticalcarpet  
 
   
 Here is a code snippet of a working model 👇
