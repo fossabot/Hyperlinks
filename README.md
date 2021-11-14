@@ -1,7 +1,8 @@
 <h1 align="center">Hyperlinks</h1>  
 <div align="center">  
   
-[![CodeFactor](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks/badge)](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks)  
+[![CodeFactor](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks/badge)](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCriticalcarpet%2FHyperlinks.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FCriticalcarpet%2FHyperlinks?ref=badge_shield)
 </div>  
 
 A JavaScript library to make "Anchor tags" more beautiful !!! 💖
@@ -49,14 +50,14 @@ Here is a code snippet of a working model 👇
 
 ## ❯ Credits 
 
-Special Thanks to [`Gabriel nunes`](https://github.com/gnuns) for permitting us to use [`allOrigins`](https://github.com/gnuns/allOrigins) for the library.  
-Also thanks to the below people for helping out and giving tips for the welfare of the project :
-- [Blitz](https://discord.com/app/@me/781928349915545640)
-- [Abitofevrything](https://github.com/abitofevrything)
-- [Lebster](https://github.com/LebsterFace)
-- [Xastronomica](https://github.com/xastronomica)
-- [[Cursors]](https://github.com/cursorsdottsx)
-- [Lcf.vs](https://github.com/Lcfvs)
+- Special Thanks to [`Gabriel nunes`](https://github.com/gnuns) for permitting us to use [`allOrigins`](https://github.com/gnuns/allOrigins) for the library.  
+- Also thanks to the below people for helping out and giving tips for the welfare of the project :
+  - [Blitz](https://discord.com/app/@me/781928349915545640)
+  - [Abitofevrything](https://github.com/abitofevrything)
+  - [Lebster](https://github.com/LebsterFace)
+  - [Xastronomica](https://github.com/xastronomica)
+  - [[Cursors]](https://github.com/cursorsdottsx)
+  - [Lcf.vs](https://github.com/Lcfvs)
 
 ## ❯ Support
 
@@ -64,5 +65,5 @@ Feel free to DM in [Discord](https://discord.com/channels/@me/436043273069658112
 
 ## ❯ License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCriticalcarpet%2FHyperlinks.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FCriticalcarpet%2FHyperlinks?ref=badge_large)
 
