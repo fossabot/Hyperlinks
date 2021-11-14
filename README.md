@@ -1,7 +1,8 @@
 <h1 align="center">Hyperlinks</h1>  
 <div align="center">  
   
-[![CodeFactor](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks/badge)](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks)  
+[![CodeFactor](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks/badge)](https://www.codefactor.io/repository/github/criticalcarpet/hyperlinks) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCriticalcarpet%2FHyperlinks.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FCriticalcarpet%2FHyperlinks?ref=badge_shield)
+ 
 </div>  
 
 A JavaScript library to make "Anchor tags" more beautiful !!! 💖
@@ -66,3 +67,6 @@ Feel free to DM in [Discord](https://discord.com/channels/@me/436043273069658112
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FCriticalcarpet%2FHyperlinks.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FCriticalcarpet%2FHyperlinks?ref=badge_large)
