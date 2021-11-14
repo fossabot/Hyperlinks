@@ -1,14 +1,45 @@
+.hyperlinks-m {
+    width: 20em;
+}
+
 .divback {
-    background-image: url('https://cdn.discordapp.com/attachments/905432589286912021/906923879367327834/unknown.png');
     width: 20em;
     height: 10em;
-
     /* fill the container, preserving aspect ratio, and cropping to fit */
     background-size: cover;
-
     /* center the image vertically and horizontally */
     background-position: top center;
-
     /* round the edges to a circle with border radius 1/2 container size */
     border-radius: 1%;
+}
+
+.hyperlinks-t {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-bottom: 0.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hyperlinks-d {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hyperlinks-l {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #8896A6;
+}
+
+.tippy-box[data-theme~='hyperlinks'] {
+    background-color: white;
+    color: black;
+    border-radius: 0.25em;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.3);
 }
